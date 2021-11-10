@@ -32,32 +32,41 @@ Cuando hay uno o más productos despliega en una ventana modal ( dialog ) con el
 
 ## Descripción de componentes
 src > app > components > navigator-screen
+
 Modulo principal de la app  contiene el header (barra de navegacion), cometedor principal donde se verán las vistas de la app y el footer.
 
 src > app > components > home
+
 Contiene la vista “Home” información del cliente o negocio.
 
 src > app > components > menu
+
 Vista dinámica de pueden ver y seleccionar menús y platos.
 
 src > app > components > cart
+
 Contenido de modal. Muestra al cliente sus productos seleccionados y da opción de pago.
 
 src > app > components > agregado
+
 Contenido de modal. Indica al usuario que su producto fue agregado.
 
 ## Descripción de servicios
 
 src > app > services > menu > menu.service.ts
-filtra los platillos según el menú seleccionado
+
+Filtra los platillos según el menú seleccionado
 
 src > app > services > sales > sale.service.ts
-almacena datos de los productos seleccionados por el usuario
+
+Almacena datos de los productos seleccionados por el usuario
 
 ## Descripción de interfaces
 
 src > app > interfaces > Menu.ts
+
 interface para el manejo de los platos que incluye el menú
+
 export interface Menu {
     calorias: string,
     ingredientes: string,
@@ -68,7 +77,9 @@ export interface Menu {
 }
 
 src > app > interfaces > Nav.ts
+
 Interface para el manejo de los menús
+
 export interface Nav {
     id: string,
     menu: string,
@@ -77,13 +88,16 @@ export interface Nav {
 
 ## Archivos imágenes
 src > assets >
+
 imágenes del proyecto
 
 ## Otros archivos
 src > app > json > menus.json
+
 Contiene los platillos de los menús
 
 src > app > json > nav.json
+
 Contiene los menús
 
 ## Further help
