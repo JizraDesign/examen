@@ -25,6 +25,8 @@
     height: 250px;
     border: solid 1px white;
     margin: 15px 5px;
+}
+.menu.cursor {
     cursor: pointer;
 }
 .platillo {

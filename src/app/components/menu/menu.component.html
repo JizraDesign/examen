@@ -1,6 +1,6 @@
 <div #menuCont class="menu__container flex__center" *ngIf="!menu">
     <h2 class="title__menu flex__center">Selecciona un menú</h2>
-    <div #menu class="menu" *ngFor="let nav of arrayNav" routerLink="/menu/{{nav.menu}}" title="Menú de {{nav.menu}}">
+    <div #menu class="menu cursor" *ngFor="let nav of arrayNav" routerLink="/menu/{{nav.menu}}" title="Menú de {{nav.menu}}">
         <div #imgCont class="cont__img__menu">
             <img #imgMenu src="../../../assets/{{nav.img}}" alt="{{nav.menu}}">
         </div>
@@ -9,7 +9,7 @@
 </div>
 <div #menuCont class="menu__container flex__center" *ngIf="menu">
     <h2 class="title__menu flex__center">{{menu}}</h2>
-    <div #menu class="menu" *ngFor="let item of carta; index as i" title="{{item.nombre}}" (click)="addItem(i)">
+    <div #menu class="menu" *ngFor="let item of carta; index as i" title="{{item.nombre}}">
         <div #imgCont class="cont__img__menu">
             <img #imgMenu src="../../../assets/{{item.img}}" alt="{{item.nombre}}">
         </div>
@@ -19,7 +19,7 @@
             <p>Calorias: {{item.calorias}}</p>
             <p>Precio: {{item.precio}}</p>
             <div class="cont__btn flex__center">
-                <button class="btn" (click)="addItemBtn()">Agregar</button>
+                <button class="btn" (click)="addItem(i)">Agregar</button>
             </div>
         </section>
         
