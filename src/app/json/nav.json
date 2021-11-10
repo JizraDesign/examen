@@ -1,0 +1,29 @@
+{
+    "menus": [
+        {
+            "id":"0",
+            "menu":"Desayunos",
+            "img":"pancakes.jpg"
+        }, 
+        {
+            "id":"1",
+            "menu":"Comidas",
+            "img":"hamburger.jpg"
+        }, 
+        {
+            "id":"2",
+            "menu":"Cenas",
+            "img":"romantic.jpg"
+        }, 
+        {
+            "id":"3",
+            "menu":"Postres",
+            "img":"ice-cream.jpg"
+        }, 
+        {
+            "id":"4",
+            "menu":"Bebidas",
+            "img":"coffee.jpg"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+    flex-wrap: wrap;
+
+    width: 100%;
+    padding: 1rem;
+}
+.img__lago {
+    width: 95%;
+    border-radius: 25px;
+    border: solid 2px white;
+    margin-bottom: 2rem;
+}
+.text__banner {
+    width: 95%;
+    max-width: 700px;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    border: solid 2px orange;
+    font-size: calc(.8em + 1vw);
+    line-height: 30px;
+    text-shadow: 1px 1px 5px black,
+        -1px -1px 5px black,
+        3px 3px 7px black;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8);
+    font-family: 'Dancing Script', cursive;
+}
+@media (min-width: 720px) {
+    .img__lago {
+        max-width: 600px;
+    }
+    .text__banner {
+        transform: translate(-10%, 50%);
+    }
+}

@@ -1,0 +1,18 @@
+<div class="cont__cart">
+    <h2 class="cart__title">Productos por pagar</h2>
+    <ng-container *ngIf="checkout == false; else payTrue">
+        <div class="cont__inner grid" *ngFor="let item of products">
+            <h3 class="plato">{{item.plato}}</h3><span class="precio">{{item.precio | currency}}</span>
+        </div>
+        <div class="cont__inner grid" >
+            <h3 class="plato total">total :</h3><span class="precio">{{total | currency}}</span>
+        </div>
+        <div class="cont__btn flex__center">
+            <button class="btn btn__cerrar" mat-dialog-close>Cerrar</button>
+            <button class="btn btn__pagar active" (click)="pay()">Pagar</button>
+        </div>
+    </ng-container>
+    <ng-template #payTrue>
+        <h2>Gracias por tu pago, ha sido un gusto atenderte. Vuelve pronto! Come frutas y verduras!!</h2>
+    </ng-template>
+</div>

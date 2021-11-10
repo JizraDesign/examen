@@ -1,1 +1,53 @@
+
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)!important;
+}
+
+.acent {
+    color: orange;
+}
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+}
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: calc( 1em + 1vw );
+    color: white;
+    background: black;
+    width: 100%;
+}
+button {
+    background: none;
+    border: none;
+}
+.cont__btn{
+    width: 100%;
+    height: 50px;
+}
+.btn {
+    min-width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    border: solid 2px orange;
+    font-weight: 600;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.btn.active,
+.btn:hover {
+    background: orange;
+    color: white;
+    font-weight: 800;
+}

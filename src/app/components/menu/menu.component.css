@@ -1,0 +1,88 @@
+.menu__container {
+    flex-wrap: wrap;
+
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.title__menu {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+    font-size: calc(2em + 1vw);
+    text-shadow: 1px 1px 5px black;
+}
+.subTitle__menu {
+    width: 100%;
+    padding: 0.5rem;
+}
+.menu {
+    position: relative;
+
+    width: 250px;
+    height: 250px;
+    border: solid 1px white;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+.platillo {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 220px;
+
+    padding: .5rem;
+    color: black;
+    font-weight: 600;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.7);
+}
+.platillo .btn {
+    pointer-events: visible;
+}
+.name__menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    filter: grayscale(0);
+    color: orange;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px black;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+.cont__img__menu {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: filter 0.3s ease-out;
+}
+.cont__img__menu.gray{
+    filter: grayscale(1);
+}
+.cont__img__menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+.cont__img__menu img:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease-in;
+}
+@media ( min-width:720px ) {
+    .banner {
+        height: 40vh;
+    }
+}

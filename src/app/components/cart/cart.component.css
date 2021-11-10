@@ -1,0 +1,17 @@
+.cart__title {
+    border-bottom: solid 2px orange;
+}
+.plato {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+.precio {
+    grid-column: 4 / -1;
+    text-align: center;
+}
+.plato.total {
+    font-weight: 800;
+}
+.cont__btn {
+    justify-content: space-around;
+}

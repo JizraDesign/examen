@@ -1,0 +1,148 @@
+[
+    {
+        "menu":"desayunos",
+        "platos": [
+            {
+                "nombre":"Chilaquiles",
+                "ingredientes": "Tortillas – Salsa Verde – Huevo – Cebolla – Crema – Queso",
+                "peso": "200 gr",
+                "calorias": "550 cal",
+                "precio": "$60",
+                "img":"chilaquiles.jpg"
+            },
+            {
+                "nombre":"Huevos rancheros",
+                "ingredientes": "Tortillas – 2 Huevos – Salsa verde",
+                "peso": "125 gr",
+                "calorias": "500 cal",
+                "precio": "$55",
+                "img":"huevos-racheros.jpg"
+            },
+            {
+                "nombre":"Huevo revuelto con jamón",
+                "ingredientes": "Huevos – Jamón",
+                "peso": "160 gr",
+                "calorias": "600 cal",
+                "precio": "$65",
+                "img":"huevo-jamon.webp"
+            }
+        ]
+    },
+    {
+        "menu":"comidas",
+        "platos":  [
+            {
+                "nombre":"Sopa Azteca",
+                "ingredientes": "Jitomate – Pollo – Tortilla – Aguacate",
+                "peso": "200 gr",
+                "calorias": "800 cal",
+                "precio": "$80",
+                "img":"sopa-de-tortilla.jpg"
+            },
+            {
+                "nombre":"Milanesa de res",
+                "ingredientes": "Milanesa de res – Papas a la francesa",
+                "peso": "230 gr",
+                "calorias": "900 cal",
+                "precio": "$110",
+                "img":"milanesa-de-res.jpg"
+            },
+            {
+                "nombre":"Pechuga de pollo rostizada",
+                "ingredientes": "Pechuga de pollo – Papas a la francesa",
+                "peso": "160 gr",
+                "calorias": "600 cal",
+                "precio": "$65",
+                "img":"pechuga.jpg"
+            }
+        ]
+    },
+    {
+        "menu":"cenas", 
+        "platos": [
+            {
+                "nombre":"Espagueti con salchicha italiana",
+                "ingredientes": "Espagueti – Salchicha - Especias",
+                "peso": "200 gr",
+                "calorias": "400 cal",
+                "precio": "$120",
+                "img":"espaguetis.jpg"
+            },
+            {
+                "nombre":"Filetes rusos de merluza en salsa verde",
+                "ingredientes": "Merluza – Huevo - Cebolletas",
+                "peso": "400 gr",
+                "calorias": "450 cal",
+                "precio": "$175",
+                "img":"filetes-rusos-m.jpg"
+            },
+            {
+                "nombre":"Aguacates rellenos de salmón ahumado y physalis",
+                "ingredientes": "Aguacate - Salmón ahumado - Physalis",
+                "peso": "360 gr",
+                "calorias": "300 cal",
+                "precio": "$65",
+                "img":"aguacate-physalis.jpg"
+            }
+        ]
+    },
+    {
+        "menu":"postres", 
+        "platos": [
+            {
+                "nombre":"Arroz con leche",
+                "ingredientes": "Arroz – Leche - Pasas - Canel",
+                "peso": "200 gr",
+                "calorias": "200 cal",
+                "precio": "$40",
+                "img":"arroz-leche.jpg"
+            },
+            {
+                "nombre":"Flan napolitano",
+                "ingredientes": "Azúcar refinada - Leche Condensada - Queso crema",
+                "peso": "30 gr",
+                "calorias": "180 cal",
+                "precio": "$45",
+                "img":"flan-napolitano.jpg"
+            },
+            {
+                "nombre":"Postre frío de limón",
+                "ingredientes": "Leche Condensada - Leche Evaporada - Jugo de limón",
+                "peso": "45 gr",
+                "calorias": "120 cal",
+                "precio": "$65",
+                "img":"postre-limon.jpg"
+            }
+        ]
+    },
+    {
+        "menu":"bebidas",
+        "platos": [
+            {
+                "nombre":"Espresso",
+                "ingredientes": "Cafe tipo espresso",
+                "peso": "60 ml",
+                "calorias": "200 cal",
+                "precio": "$70",
+                "img":"espresso.jpg"
+            },
+            {
+                "nombre":"Mocha",
+                "ingredientes": "Cafe tipo espresso - Chocolate - Leche - Crema",
+                "peso": "150 ml",
+                "calorias": "180 cal",
+                "precio": "$80",
+                "img":"Mocha.webp"
+            },
+            {
+                "nombre":"Americano",
+                "ingredientes": "Mezcla arabiga",
+                "peso": "200 ml",
+                "calorias": "120 cal",
+                "precio": "$70",
+                "img":"Americano.jpg"
+            }
+        ]
+    }
+
+]
