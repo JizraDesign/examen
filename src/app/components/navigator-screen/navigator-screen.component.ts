@@ -20,14 +20,14 @@ export class NavigatorScreenComponent implements OnInit {
   ){ }
 
   ngOnInit(): void {
-    // escuchamos el servicio de ventas para actualizar el numero del carrito de compras
+    // Escuchamos el servicio de ventas para actualizar el numero del carrito de compras
     this.saleService.newAdd.subscribe( data => {
       if (data.items_cart) this.cartCount = data.items_cart;
     })
   }
 
   /**
-   * Mostrar u ocultar menú en pantallas de dispositos moviles
+   * El click en el icono de menu muestra u oculta el menú en pantallas de dispositos moviles
    */
   menuAction(): void {
     const $nav = this.nav.nativeElement;
@@ -35,7 +35,7 @@ export class NavigatorScreenComponent implements OnInit {
   }
 
   /**
-   * ver contenido de carrito
+   * Ver contenido de carrito
    */
   cartView( data?:any ){
     if ( this.cartCount > 0 ) {

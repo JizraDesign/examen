@@ -84,14 +84,22 @@ export class MenuComponent implements OnInit {
     }, 500 );
   }
 
+  /**
+   * Se envia al sercivicio los datos del producto que fue leccionado
+   * @param i index del item seleccionado
+   */
   addItem( i:number ) {
     const data = {
       plato: this.carta[i].nombre,
       precio: parseInt(this.carta[i].precio.replace("$", ""))
     }
     this.saleService.addItem( data );
+    this.addItemBtn();
   }
 
+  /**
+   * Lanza un cuadro de dialogo para indicar que el producto fue agregado
+   */
   addItemBtn() {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.width="700px";;
